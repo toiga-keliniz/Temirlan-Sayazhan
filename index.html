@@ -227,37 +227,51 @@ t396_init('763477509');
 
 
 <style>
-    /* Отступы для всех элементов */
-    * {
-      margin-left: 15px; /* Пример значения отступа слева */
-      margin-right: 15px; /* Пример значения отступа справа */
-    }
+	label[for="name"] {
+  font-size: 20px; /* Увеличьте размер текста до 20 пикселей */
+  margin-bottom: 10px;
   
-    label[for="name"] {
-      font-size: 20px; /* Увеличьте размер текста до 20 пикселей */
+
+}
+
+input[type="radio"] {
+    margin-left: 15px;  /* Отступ слева для радио-кнопок */
+    margin-right: 10px; /* Отступ справа для радио-кнопок */
+   
+  }
+
+  label[for="name"] {
+    margin-left: 20px;  /* Отступ слева */
+   
+  }
+
+
+
+label {
       margin-bottom: 10px;
+      font-size: 16px; /* Увеличить размер текста */
+
     }
-  
-    label {
-      margin-bottom: 10px;
-      font-size: 18px; /* Увеличить размер текста */
-    }
-  
-    input[type="text"] {
-      width: calc(100% - 30px); /* Уменьшить ширину, чтобы учесть отступы */
-      height: 50px; /* Увеличить высоту поля ввода */
-      padding: 20px; /* Добавить внутренние отступы */
-      font-size: 16px; /* Увеличить размер шрифта */
-      box-sizing: border-box; /* Учитывать padding и border в общей ширине и высоте элемента */
-      margin-top: 10px; /* Добавить верхние отступы */
-      border-radius: 10px;
-      border: 1px solid #860c0c; /* Установить цвет, толщину и стиль рамки */
-    }
-  
-    .buttuon {
-      text-align: center;
-    }
-  
+
+input[type="text"] {
+  width: 100%; /* Сделать поле ввода шириной 100% от родительского элемента */
+  height: 40px; /* Увеличить высоту поля ввода */
+  padding: 20px; /* Добавить внутренние отступы */
+  font-size: 16px; /* Увеличить размер шрифта */
+  box-sizing: border-box; /* Учитывать padding и border в общей ширине и высоте элемента */
+  margin-top: 10px; /* Добавить верхние отступы */
+  border-radius: 10px;
+  border: 1px solid #860c0c; /* Установить цвет, толщину и стиль рамки */
+  margin-left: 15px;
+
+
+
+}
+
+
+.buttuon{
+	text-align: center;
+}
     button[type="submit"] {
       background-color: #0f0000;
       color: #fff;
@@ -267,16 +281,17 @@ t396_init('763477509');
       cursor: pointer;
       font-size: 16px;
       transition: background-color 0.3s ease;
-      text-align: center;
-      border-radius: 10px;
+	  text-align: center;
+	  border-radius: 10px;
+
     }
-  
     button[type="submit"]:hover {
       background-color: #270303;
+	  
     }
-  
     #response {
       margin-top: 20px;
+      
     }
   </style>
   
